@@ -1,0 +1,89 @@
+.body{
+    background-color:;
+}
+.main{
+    background-color: rgb(217, 0, 255);
+    width: 60%;
+    height: 650px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    
+    
+}
+.main-section{
+    background-color: green;
+    width: 60%;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+.sign {
+    text-align: center;
+}
+.privacy{
+    text-align: center;
+}
+    
+
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: red;
+    
+   
+}
+.sign{
+    background-color: aqua;
+}
+.privacy{
+    background-color: blue;
+}
+.data{
+    background-color: white;
+    width: 50%;
+}
+label, input{
+    display: block;
+     
+
+}
+.form-div{
+background-color: aqua;
+margin-left: 10%; 
+margin-top: 10%;
+}
+.form{
+    background-color: brown;
+
+}
+.link{
+  
+    text-align: center;
+    text-decoration: none;
+   
+}
+.linkg{
+    border: 2px solid blue;
+    border-radius: 20px;
+    padding: 10px 14px;
+
+}
+.links{
+    border: 2px solid blue;
+    border-radius: 20px;
+    padding: 10px 14px;
+}
+.zalia{
+    background-color: bisque;
+    margin-top: 30px;
+}

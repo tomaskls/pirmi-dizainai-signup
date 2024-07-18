@@ -1,0 +1,18 @@
+{
+  "name": "pirmi-dizainai-signup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server --host=localhost --port=5110",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tomas (https://github.com/tomaskls)",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "dead": "^0.0.2",
+    "dead-server": "^1.0.9",
+    "server": "^1.0.39"
+  }
+}
