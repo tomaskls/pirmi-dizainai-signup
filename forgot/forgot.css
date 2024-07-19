@@ -78,13 +78,6 @@ label, input{
     color: white;
 
 }
-.links{
-    border: 2px solid white;
-    color: blue;
-    font-size: 0.8em;
-    border-radius: 20px;
-    padding: 5px 25px;
-}
  
 .zalia{
     display: flex;
