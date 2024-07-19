@@ -9,13 +9,13 @@
     justify-content: space-between;
     flex-wrap: wrap;
     position: relative;
-    
+    font-size: 22px;
     
 }
 .main-section{
     background-color: green;
-    width: 60%;
-    height: 450px;
+    width: 75%;
+
     position: absolute;
     top: 50%;
     left: 50%;
@@ -38,19 +38,31 @@
     width: 50%;
     margin-top: 5%;
     margin-bottom: 5%;
-    background-color: red;
-    
-   
+    background-color: red;  
+    position: relative; 
 }
-.sign{
-    background-color: aqua;
+.sign > h2{
+
+    margin: 0;
+    line-height: 100%;
+    position: absolute;
+    top: 2%;
+    left:20%;
+    transform:translate();
+
 }
-.privacy{
-    background-color: blue;
-}
+
 .data{
-    background-color: white;
+    background-color: beige;
     width: 50%;
+}
+.close{
+    color: red;
+    font-size: 50px;
+    line-height: 0.5em;
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
 label, input{
     display: block;
@@ -58,12 +70,7 @@ label, input{
 
 }
 .form-div{
-background-color: aqua;
-margin-left: 10%; 
-margin-top: 10%;
-}
-.form{
-    background-color: brown;
+margin: 10%; 
 
 }
 .link{
@@ -76,14 +83,20 @@ margin-top: 10%;
     border: 2px solid blue;
     border-radius: 20px;
     padding: 10px 14px;
+    background-color: blue;
 
 }
 .links{
-    border: 2px solid blue;
+    border: 2px solid white;
     border-radius: 20px;
     padding: 10px 14px;
 }
+.links:hover{
+    border: 2px solid blue;
+    border-radius: 20px;
+    padding: 10px 14px;
+    background-color: blue;  
+}
 .zalia{
-    background-color: bisque;
-    margin-top: 30px;
+padding:  15px;
 }
