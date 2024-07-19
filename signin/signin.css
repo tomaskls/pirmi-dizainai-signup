@@ -81,20 +81,16 @@ label, input{
 .links{
     border: 2px solid white;
     color: blue;
+    font-size: 0.8em;
     border-radius: 20px;
     padding: 5px 25px;
 }
-.links:hover{
-    border: 2px solid blue;
-    border-radius: 20px;
-    background-color: blue;
-    color: white;  
-}
+ 
 .zalia{
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    margin-right: 10%;
+    flex-direction: column;
+    gap: 20px;
+    margin-right: 50%;
     margin-left: 12%;
     margin-bottom: 10%;
 }
