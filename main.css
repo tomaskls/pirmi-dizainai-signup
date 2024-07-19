@@ -2,20 +2,20 @@
     background-color:;
 }
 .main{
-    background-color: rgb(217, 0, 255);
+    background-image: url(/sign.png);
+    background-size: cover;
     width: 60%;
     height: 650px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     position: relative;
-    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
     
 }
 .main-section{
-    background-color: green;
     width: 75%;
-
     position: absolute;
     top: 50%;
     left: 50%;
@@ -28,37 +28,38 @@
 .privacy{
     text-align: center;
 }
-    
-
-}
 .img{
+    background-image: url(/sign.png);
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 50%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    background-color: red;  
+    width: 40%;
+    margin-top: 3%;
+    margin-bottom: 3%;  
     position: relative; 
 }
 .sign > h2{
-
     margin: 0;
     line-height: 100%;
+    font-size: 35px;
+    color: white;
     position: absolute;
     top: 2%;
     left:20%;
     transform:translate();
-
 }
-
+.privacy > p{
+    color: white;
+}
 .data{
-    background-color: beige;
+    background-color: white;
     width: 50%;
+    position: relative;
 }
 .close{
-    color: red;
-    font-size: 50px;
+    color: lightgrey;
+    font-size: 30px;
     line-height: 0.5em;
     position: absolute;
     top: 10px;
@@ -66,37 +67,48 @@
 }
 label, input{
     display: block;
-     
-
-}
+     }
 .form-div{
-margin: 10%; 
-
-}
-.link{
-  
-    text-align: center;
-    text-decoration: none;
    
+    margin: %;
+}
+.form{
+    color: lightgrey;
+    margin: 12%;
+}
+.link{ 
+    text-align: center;
+    text-decoration: none;   
 }
 .linkg{
     border: 2px solid blue;
     border-radius: 20px;
-    padding: 10px 14px;
+    padding: 5px 25px;
     background-color: blue;
+    color: white;
 
 }
 .links{
     border: 2px solid white;
+    color: blue;
     border-radius: 20px;
-    padding: 10px 14px;
+    padding: 5px 25px;
 }
 .links:hover{
     border: 2px solid blue;
     border-radius: 20px;
-    padding: 10px 14px;
-    background-color: blue;  
+    background-color: blue;
+    color: white;  
 }
 .zalia{
-padding:  15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-right: 10%;
+    margin-left: 12%;
+    margin-bottom: 10%;
+}
+.zalia > p{
+    background-color: antiquewhite;
+    line-height: 0%;
 }
